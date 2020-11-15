@@ -1,0 +1,27 @@
+{
+  "name": "it",
+  "version": "1.0.0",
+  "description": "Lab work for IT",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "rm -rf /Users/mishadziuba/Documents/University/ITDB/testDB && node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dziubamiol/IT.git"
+  },
+  "author": "Dziuba Mykhailo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dziubamiol/IT/issues"
+  },
+  "homepage": "https://github.com/dziubamiol/IT#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "uuid": "^8.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.13.0"
+  }
+}
