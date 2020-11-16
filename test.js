@@ -96,5 +96,9 @@ console.log(tableCopy);
 console.log('----------------------save table changes----------------------');
 tableCopy.save();
 
-console.log('----------------------drop database----------------------');
+console.log('----------------------list databases names----------------------');
+const dbs = DB.listDatabasesNames(DB_PATH);
+console.log(dbs);
+
+// console.log('----------------------drop database----------------------');
 // dbCopy.dropDatabase();

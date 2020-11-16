@@ -5,6 +5,7 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
+    "start": "nodemon --delay 2 ./lib/server.js",
     "test": "rm -rf /Users/mishadziuba/Documents/University/ITDB/testDB && node test.js"
   },
   "repository": {
@@ -18,10 +19,14 @@
   },
   "homepage": "https://github.com/dziubamiol/IT#readme",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "http-status-codes": "^2.1.4",
     "uuid": "^8.3.1"
   },
   "devDependencies": {
-    "eslint": "^7.13.0"
+    "eslint": "^7.13.0",
+    "nodemon": "^2.0.6"
   }
 }
